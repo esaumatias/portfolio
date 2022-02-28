@@ -1,0 +1,46 @@
+.containerNavbar {
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.containerNavbar .containerNameNav {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerNavbar .containerNameNav .nameNav {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.containerNavbar .containerNameNav .subTitleNav {
+  font-size: 13px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.containerNavbar #sol {
+  background-image: url("https://img.icons8.com/color/48/000000/sun--v1.png");
+}
+
+.containerNavbar #lua {
+  background-image: url("https://img.icons8.com/material/50/000000/do-not-disturb-2.png");
+}
+
+.containerNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerNavbar .containerItensMenu {
+  display: flex;
+}
+
+.containerNavbar .containerModeTeme {
+  font-size: 30px;
+  text-align: center;
+}
