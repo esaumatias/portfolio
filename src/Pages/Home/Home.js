@@ -1,7 +1,7 @@
 import React, {useContext, useEffect} from 'react';
 import imageHome from '../../Images/devArt.svg';
 import AppContext from '../../Context/AppContext';
-import {Image, Container, Stack, Col}  from 'react-bootstrap';
+import {Image, Container, Stack}  from 'react-bootstrap';
 import Header from '../../Componentes/Header/Header';
 
 import './Home.css';
