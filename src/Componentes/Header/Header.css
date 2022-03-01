@@ -3,7 +3,19 @@
   right: 0;
   left: 0;
   top: 0;
-  z-index: 2;
+  z-index: 1;
+}
+
+.darkHeader {
+  transition: .300s;
+  position: fixed;
+  background-color: #212529;
+}
+
+.lightHeader {
+  transition: .300s;
+  position: fixed;
+  background-color: white;
 }
 
 .containerNavbar .containerNameNav {

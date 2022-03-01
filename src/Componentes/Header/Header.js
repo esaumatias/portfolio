@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import {Navbar, Container, Nav, Form}  from 'react-bootstrap';
 import AppContext from '../../Context/AppContext';
 
@@ -6,10 +6,24 @@ import './Header.css';
 
 function Header() {
   const {lightMode, setLightMode} = useContext(AppContext);
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const onScroll = () => setOffset(window.pageYOffset);
+    window.removeEventListener('scroll', onScroll);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  function className() {
+    if (offset >= 5) {
+      return lightMode ? 'lightHeader' : 'darkHeader';
+    }
+  }
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg={lightMode ? 'light' : 'dark'} variant={lightMode ? 'light' : 'dark'}>
-      <Container className="containerNavbar">
+    <Navbar collapseOnSelect expand="lg" bg={lightMode ? 'light containerNavbar' : 'dark containerNavbar'} variant={lightMode ? 'light' : 'dark'}>
+      <Container className={`containerNavbar ${className()}`}>
         <Navbar.Brand href="#home" className="containerNameNav">
           <span className="nameNav">{`< Esau Matias />`}</span>
           <span className="subTitleNav">Front - end developer</span>
