@@ -71,6 +71,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .containerHome .socialContainerDark .social {
@@ -93,7 +94,7 @@
 
 .containerHome .socialContainerDark .bar div{
   width: 3px;
-  height: 40px;
+  height: 30px;
   background-color: rgb(33, 37, 41);
 }
 
@@ -141,7 +142,11 @@
   color: rgb(33, 37, 41);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+  .containerHome {
+    height: 100vh;
+  }
+
   .containerRight {
     display: none;
   }
@@ -176,5 +181,23 @@
    margin-left: 2px;
    opacity: 1;
    animation: pisca .7s infinite;
+  }
+}
+
+@media (max-width: 399px) {
+  .containerHome .socialContainerLigth .bar {
+    display: none;
+  }
+
+  .containerHome .socialContainerLigth .social {
+    margin-top: 20px;
+  }
+
+  .containerHome .socialContainerDark .bar {
+    display: none;
+  }
+
+  .containerHome .socialContainerDark .social {
+    margin-top: 20px;
   }
 }

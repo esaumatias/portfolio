@@ -3,6 +3,7 @@ import imageHome from '../../Images/devArt.svg';
 import AppContext from '../../Context/AppContext';
 import {Image, Container, Stack}  from 'react-bootstrap';
 import Header from '../../Componentes/Header/Header';
+import Conhecimentos from '../../Componentes/Conhecimentos/Conhecimentos';
 
 import './Home.css';
 
@@ -36,10 +37,10 @@ function Home() {
             <Image fluid src={imageHome} alt="developer"/>
           </div>
 
-          <div class="typewriter containerLefth">
+          <div className="typewriter containerLefth">
             <p>Olá, eu sou</p>
             <h3>Esau Matias.</h3>
-            <h1 class="titulo-principal">Front-end developer.</h1>
+            <h1 className="titulo-principal">Front-end developer.</h1>
           </div>
 
         </Stack>
@@ -60,6 +61,7 @@ function Home() {
         </a>
       </section>
     </section>
+    <Conhecimentos />
     </>
   )
 }

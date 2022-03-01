@@ -1,0 +1,68 @@
+.containerConhecimentos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.containerConhecimentos .containerCardsConheci {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.containerConhecimentos .containerCardsConheci div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+  text-align: center;
+  transition: .5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+
+
+.containerConhecimentos .containerCardsConheci div p{
+  height: 28px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.containerConhecimentos .containerCardsConheci img {
+  width: 100px;
+}
+
+.containerConhecimentos .containerCardsConheci .dark:hover {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.containerConhecimentos .containerCardsConheci .dark p{
+  color: #212529;
+}
+
+.containerConhecimentos .containerCardsConheci .light:hover {
+  background: #212529;
+  border-radius: 5px;
+}
+
+.containerConhecimentos .containerCardsConheci .light p{
+  color: #ffffff;
+}
+
+.containerConhecimentos .containerTitleName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerConhecimentos .containerTitleName div{
+  height: 80px;
+  text-align: center;
+}
