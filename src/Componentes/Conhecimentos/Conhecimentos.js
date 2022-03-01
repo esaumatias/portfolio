@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import AppContext from '../../Context/AppContext';
-import {Container, Row, Col, Image}  from 'react-bootstrap';
+import {Container, Row, Col}  from 'react-bootstrap';
 
 import './Conhecimentos.css';
 
