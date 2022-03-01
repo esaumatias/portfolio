@@ -34,10 +34,10 @@ function Header() {
             
           </Nav>
           <Nav className="containerItensMenu">
-            <Nav.Link href="#deets">HOME</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">QUEM SOU</Nav.Link>
-            <Nav.Link eventKey={3} href="#memes">CONHECIMENTOS</Nav.Link>
-            <Nav.Link eventKey={4} href="#memes">PORTFÓLIO</Nav.Link>
+            <Nav.Link href="#home">HOME</Nav.Link>
+            <Nav.Link eventKey={2} href="#quemSou">QUEM SOU</Nav.Link>
+            <Nav.Link eventKey={3} href="#conhecimentos">CONHECIMENTOS</Nav.Link>
+            <Nav.Link eventKey={4} href="#portfolio">PORTFÓLIO</Nav.Link>
             <Nav.Link eventKey={5} href="#memes">CONTATO</Nav.Link>
               <Form.Check 
                 type="switch"

@@ -35,7 +35,7 @@ function Portfolio() {
   
   
   return (
-   <section className={lightMode ? 'modeLight containerPortfolio' : 'darkMode containerPortfolio'}>
+   <section className={lightMode ? 'modeLight containerPortfolio' : 'darkMode containerPortfolio'} id="portfolio">
      <Container>
        <Row>
         <Col className="containerTitlePorti">

@@ -28,7 +28,7 @@ function Home() {
   }, [])
 
   return (
-    <>
+    <span id="home">
       <Header />
       <section className={lightMode ? 'modeLight containerHome' : 'darkMode containerHome'}>
       <Container fluid="md">
@@ -66,7 +66,7 @@ function Home() {
     <Conhecimentos />
 
     <Portfolio />
-    </>
+    </span>
   )
 }
 

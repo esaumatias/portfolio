@@ -29,10 +29,10 @@ function Conhecimentos() {
   }
 
   return (
-    <section className={lightMode ? 'modeLight containerConhecimentos' : 'darkMode containerConhecimentos'}>
+    <section className={lightMode ? 'modeLight containerConhecimentos' : 'darkMode containerConhecimentos'} id="quemSou">
       <Container>
         <QuemSou />
-        <div>
+        <div id="conhecimentos">
           <Col onMouseOver={() => setTest(0)}  className="containerTitleName">
             <div>
               <h1>CONHECIMENTOS</h1>
