@@ -24,7 +24,7 @@ function QuemSou() {
               2013, onde obtive conhecimentos em Javascript, porém, na época,
               não quis seguir carreira, pois havia outros sonhos, em 2021 terminei 
               a graduação em Ciências contábeis e atualmente faço o curso
-              de desenvolvimento Full Stack pela trybe onde ja concluí os módulos de
+              de desenvolvimento Full Stack pela trybe, onde ja concluí os módulos de
               <strong> FUNDAMENTOS DO DESENVOLVIMENTO WEB</strong> e <strong>DESENVOLVIMENTO FRONT END</strong>.
             </p>
           </Col>

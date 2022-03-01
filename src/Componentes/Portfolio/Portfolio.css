@@ -1,0 +1,31 @@
+.containerPortfolio {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  text-align: center;
+}
+
+.containerPortfolio img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.containerPortfolio .cardProjects a {
+  text-decoration: none;
+  text-transform: none;
+} 
+
+.containerPortfolio .cardProjects h3 {
+  margin-top: 40px;
+} 
+
+.containerTitlePorti {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

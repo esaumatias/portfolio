@@ -4,7 +4,7 @@ import AppContext from '../../Context/AppContext';
 import {Image, Container, Stack}  from 'react-bootstrap';
 import Header from '../../Componentes/Header/Header';
 import Conhecimentos from '../../Componentes/Conhecimentos/Conhecimentos';
-// import QuemSou from '../../Componentes/QuemSou/QuemSou';
+import Portfolio from '../../Componentes/Portfolio/Portfolio';
 
 import './Home.css';
 
@@ -63,9 +63,9 @@ function Home() {
       </section>
     </section>
 
-    {/* <QuemSou /> */}
-
     <Conhecimentos />
+
+    <Portfolio />
     </>
   )
 }
