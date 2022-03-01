@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react';
 import AppContext from '../../Context/AppContext';
 import {Container, Row, Col}  from 'react-bootstrap';
 
+import QuemSou from '../QuemSou/QuemSou';
+
 import './Conhecimentos.css';
 
 function Conhecimentos() {
@@ -29,6 +31,7 @@ function Conhecimentos() {
   return (
     <section className={lightMode ? 'modeLight containerConhecimentos' : 'darkMode containerConhecimentos'}>
       <Container>
+        <QuemSou />
         <div>
           <Col onMouseOver={() => setTest(0)}  className="containerTitleName">
             <div>

@@ -4,6 +4,7 @@ import AppContext from '../../Context/AppContext';
 import {Image, Container, Stack}  from 'react-bootstrap';
 import Header from '../../Componentes/Header/Header';
 import Conhecimentos from '../../Componentes/Conhecimentos/Conhecimentos';
+// import QuemSou from '../../Componentes/QuemSou/QuemSou';
 
 import './Home.css';
 
@@ -61,6 +62,9 @@ function Home() {
         </a>
       </section>
     </section>
+
+    {/* <QuemSou /> */}
+
     <Conhecimentos />
     </>
   )

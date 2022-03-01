@@ -1,8 +1,8 @@
 .containerNavbar {
   position: relative;
+  top: 0;
   right: 0;
   left: 0;
-  top: 0;
   z-index: 1;
 }
 
@@ -15,7 +15,7 @@
 .lightHeader {
   transition: .300s;
   position: fixed;
-  background-color: white;
+  background-color: #f8f9fa;
 }
 
 .containerNavbar .containerNameNav {
