@@ -1,0 +1,15 @@
+
+.footer .containerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 430px) {
+  .footer .containerFooter .containersoci {
+    display: flex;
+    width: 20px;
+  }
+}
