@@ -50,7 +50,7 @@ function Contato() {
               <Button variant={lightMode ? "dark" : "light"} type="submit" onClick={() => setShow(true)} disabled={name.length > 3 && email.length > 7 ? false : true}>
                 Enviar
               </Button>
-              <input type="hidden" name="_next" value="https://esau-esaumatias.vercel.app/"></input>
+              <input type="hidden" name="_next" value="https://esaumatias.vercel.app/"></input>
             </Form>
           </section>
 
