@@ -5,6 +5,7 @@ import {Image, Container, Stack}  from 'react-bootstrap';
 import Header from '../../Componentes/Header/Header';
 import Conhecimentos from '../../Componentes/Conhecimentos/Conhecimentos';
 import Portfolio from '../../Componentes/Portfolio/Portfolio';
+import Contato from '../../Componentes/Contato/Contato';
 
 import './Home.css';
 
@@ -31,7 +32,7 @@ function Home() {
     <span id="home">
       <Header />
       <section className={lightMode ? 'modeLight containerHome' : 'darkMode containerHome'}>
-      <Container fluid="md">
+      <Container fluid="md" className="containerPrincipal">
         <Stack className="containerTextPrincipal" direction="horizontal" gap={2}>
 
           <div className="containerRight">
@@ -66,6 +67,8 @@ function Home() {
     <Conhecimentos />
 
     <Portfolio />
+
+    <Contato />
     </span>
   )
 }

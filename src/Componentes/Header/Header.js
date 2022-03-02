@@ -38,7 +38,7 @@ function Header() {
             <Nav.Link eventKey={2} href="#quemSou">QUEM SOU</Nav.Link>
             <Nav.Link eventKey={3} href="#conhecimentos">CONHECIMENTOS</Nav.Link>
             <Nav.Link eventKey={4} href="#portfolio">PORTFÓLIO</Nav.Link>
-            <Nav.Link eventKey={5} href="#memes">CONTATO</Nav.Link>
+            <Nav.Link eventKey={5} href="#contato">CONTATO</Nav.Link>
               <Form.Check 
                 type="switch"
                 id={lightMode ? 'sol' : 'lua'}
