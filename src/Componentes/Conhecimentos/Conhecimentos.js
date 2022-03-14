@@ -25,6 +25,12 @@ function Conhecimentos() {
       return <div>O React-Bootsrap é uma biblioteca que nos oferece os componentes clássicos do Bootstrap construídos em React. </div>
     } else if (text === 6) {
       return <div>Redux é uma biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo.</div>
+    } else if (text === 7) {
+      return <div>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.</div>
+    } else if (text === 8) {
+      return <div>API é uma interface que viabiliza a comunicação entre dois sistemas ou plataformas distintas, possibilitando agregar funções diversificadas a sites e aplicativos.</div>
+    } else if (text === 9) {
+      return <div>A Context API é uma forma de compartilhar dados entre componentes em diferentes níveis de uma árvore de elementos, muito utilizado para evitar prop drilling e até mesmo como um gerenciador de estados.</div>
     }
   }
 
@@ -94,6 +100,33 @@ function Conhecimentos() {
                 <span></span>
                 {text === 6 ? <p>Redux</p> : <p></p>}
                 <img src="https://img.icons8.com/color/480/000000/redux.png" alt="redux" />
+              </div>
+
+              <div onMouseOver={() => setTest(7)} className={lightMode ? 'light' : 'dark'}>
+              <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                {text === 7 ? <p>GitHub</p> : <p></p>}
+                <img src="https://img.icons8.com/plasticine/400/000000/github-squared.png" alt="GitHub" />
+              </div>
+
+              <div onMouseOver={() => setTest(8)} className={lightMode ? 'light' : 'dark'}>
+                <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  {text === 8 ? <p>API</p> : <p></p>}
+                <img src="https://img.icons8.com/plasticine/100/000000/api.png" alt="api"/>
+              </div>
+
+              <div onMouseOver={() => setTest(9)} className={lightMode ? 'light' : 'dark'}>
+                <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  {text === 9 ? <p>CONTEXT API</p> : <p></p>}
+                  <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-context-automation-technology-flaticons-flat-flat-icons.png" alt="context API"/>
               </div>
             </Row>
           </Col>
